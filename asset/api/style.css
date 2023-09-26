@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  #genreInput {
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  #recommendButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #recommendButton:hover {
+    background-color: #0056b3;
+  }
+  
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1fc2cb3e;
+    margin: 20px;
+  }
+  
+  .movie {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .movie p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  

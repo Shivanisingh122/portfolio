@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani</title>
+    <link rel="shortcut icon" href="asset/kai.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
+   
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('home')">shivani singh</a></div>
+            </div>
+            <div class="navbar-right">
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('home')">home</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('about')">about</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('project')">project</a></div>
+                <div class="navbar-item"><a class="link" onclick="scrollToSection('contact')">contact</a></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="heading-primary">hey, i'm shivani singh</h1>
+            <div class="home-info">
+                <p class="text-primary">
+                    I am an aspiring Full Stack Developer
+                    want to hire me ? Resume
+                </p>
+                <hr>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="main-container">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    About Me
+                    <hr>
+                </span>
+            </h2>
+        </div>
+
+        <div class="about-elements">
+            <div class="about-me-skills">
+                <h2>Skill Set</h2>
+                <button class="button-55">HTML</button>
+                <button class="button-55">CSS</button>
+                <button class="button-55">JavaScript</button>
+                <button class="button-55">Web Design</button>
+                <button class="button-55">SQL</button>
+                <button class="button-55">DSA</button>
+                <button class="button-55">Problem Solving</button>
+                <button class="button-55">Java</button>
+                <button class="button-55">Python</button>
+            </div>
+
+            <div class="about-me">
+                <p class="heading-sec__sub">I'm Shivani Singh, a third-year Btech student at Sharda University. I'm working hard to become a full-stack web developer because I find it exciting and interesting. I believe in learning continuously and enjoy tackling new challenges. I'm enthusiastic about exploring the web development field and hope to make a positive impact through my work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="main-container">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    project(s)
+                    <hr>
+                </span>
+                <span class="heading-sec__sub">
+                    The future belongs to those who believe in the beauty of their dreams
+                </span>
+            </h2>
+        </div>
+            
+        <div class="sub-projects" style="margin-bottom: 40px;">
+            <div class="api-app" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 
+            0 0 40px rgba(169, 169, 169, 0.5);">
+                <div class="card" style="width: 18rem; padding: 20px;">
+                    <img class="card-img-top" src="asset/movieLogo.jpg" alt="Cinema Camera" style="height: 180px; width: 286px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">MovieRecon</h5>
+                      <p class="card-text">Our movie API web app offers genre-based movie recommendations, making it easy to discover and enjoy films tailored to your preferences.</p>
+                      <a href="asset/api/index.html" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 
+            0 0 40px rgba(169, 169, 169, 0.5);">
+                <div class="card" style="width: 18rem; padding: 20px;">
+                    <img class="card-img-top" src="asset/gallerio.jpg" alt="Art" style="height: 180px; width: 286px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">Gallerio</h5>
+                      <p class="card-text">I was tasked with reshaping and resizing a collection of images to fit into a square-shaped gallery layout, creating a cohesive and visually appealing display.</p>
+                      <a href="asset/glry/index2.html" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-projects" style="padding-bottom: 10rem;">
+            <div class="login-app" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 
+            0 0 40px rgba(169, 169, 169, 0.5);">
+                <div class="card" style="width: 18rem; padding: 20px;">
+                    <img class="card-img-top" src="asset/login.png" alt="User Profile" style="height: 180px; width: 286px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">login-Page</h5>
+                      <p class="card-text">My internship began with designing a concise and functional login page as my first standalone project.</p>
+                      <a href="asset/login page/index.html" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="api-app" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 
+            0 0 40px rgba(169, 169, 169, 0.5);">
+                <div class="card" style="width: 18rem; padding: 20px;">
+                    <img class="card-img-top" src="asset/gallerio.jpg" alt="webapp" style="height: 180px; width: 286px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">MyFirst website</h5>
+                      <p class="card-text">Crafted my debut website: simple, informative, user-friendly, and a stepping stone for web development endeavors.</p>
+                      <a href="asset/htmlwebsite/index.html" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="main-container" id="min_margin">
+            <h2 class="heading__">
+                <span class="heading-sec__main">
+                    links to other profiles
+                    <hr>
+                </span>
+                
+
+                <div class="social-icons">
+                    <a href="https://github.com/shivani122">
+                        <i class="fab fa-github">github</i>
+                    </a>
+                    <a href="https://leetcode.com/shivani1220">
+                        <i class="fas fa-terminal">leetcode</i>
+                    </a>
+                    <a href="mailto:shivanisinghhjp20@gmail.com">
+                        <i class="fas fa-envelope">email</i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1NGWmSRkscIIGxVMSTvC1Qgj_7tppj-tA/view?usp=sharing">
+                        <i class="fas fa-file">Resume</i>
+                    </a>
+                    <!-- a href="https://drive.google.com/file/d/1NGWmSRkscIIGxVMSTvC1Qgj_7tppj-tA/view?usp=sharing">
+                        <i class="fas fa-file">Resume</i>
+                    </a> -->
+                </div> 
+            </h2>
+        </div>   
+        
+        <footer class="footer">
+            <p class="footer-text">Made with ❤️ by Shivani</p>
+        </footer>
+    </section>
+    
+</body>
+</html>

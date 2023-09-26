@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(245, 245, 220, 0.515);
+    
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub {
+    display: flex;
+}
+
+img {
+    display: block;
+    margin: 5px;
+    height: 256px;
+    width: 256px;
+    border: 10px solid #ccc;
+}
+
+img:hover {
+    border-color: #ccc;
+    box-shadow: 0px -5px 10px 0px rgb(9, 0, 0);
+}
+
+#twoDiv {
+    height: 535px;
+}
